@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Orbitron:wght@600;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Orbitron", sans-serif;
+}
+
+/* Custom pulsing glow animations for the Vibrant theme */
+@keyframes neon-pulse-cyan {
+  0%, 100% { box-shadow: 0 0 8px rgba(34, 211, 238, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(34, 211, 238, 0.8); }
+}
+
+@keyframes neon-pulse-pink {
+  0%, 100% { box-shadow: 0 0 8px rgba(244, 114, 182, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(244, 114, 182, 0.8); }
+}
+
+@keyframes neon-pulse-purple {
+  0%, 100% { box-shadow: 0 0 8px rgba(168, 85, 247, 0.4); }
+  50% { box-shadow: 0 0 25px rgba(168, 85, 247, 0.8); }
+}
+
+.animate-glow-cyan {
+  animation: neon-pulse-cyan 2s infinite ease-in-out;
+}
+
+.animate-glow-pink {
+  animation: neon-pulse-pink 2s infinite ease-in-out;
+}
+
+.animate-glow-purple {
+  animation: neon-pulse-purple 2.5s infinite ease-in-out;
+}

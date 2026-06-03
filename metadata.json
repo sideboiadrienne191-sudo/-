@@ -1,0 +1,8 @@
+{
+  "name": "奥特曼射击游戏",
+  "description": "一款精美的奥特曼射击游戏，控制奥特曼在太空中飞翔，变换多种形态，升级武器装备，释放斯派修姆光线击退怪兽入侵！支持桌面键盘与手机触控操作，内置合成复古电子音效、流畅的粒子爆炸效果以及刺激的Boss挑战战。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
